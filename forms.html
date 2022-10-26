@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/school logo.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <title>Beverly Hills/ registration form</title>
+</head>
+<body>
+    <div>
+        <img src="./images/school logo.jpg" alt="school logo" width="100">
+    </div>
+        <b class="caption" style="font-size:20pt;">Beverly Hills, High School</b>
+        <h2>Beverly Hills New Entry Registration form</h2>
+        <p>
+        kindly fill the form below to register.
+        </p>
+    <form action="" autocomplete="on" novalidate="off" target="_parent" accept-charset="utf-8">
+        <fieldset>
+            <legend>Personalia<b>:</b></legend>
+        <p>
+            <label for="First Name">First Name<b>:</b></label><br>
+            <input type="text"  id="first name">
+        </p>
+        <p>
+            <label for="last name">Last Name<b>:</b></label><br>
+            <input type="text" name="Last Name" id="lastname">
+        </p>
+        <p>sex<b>:</b>
+            <input type="radio" name="sex" value="female" id="female"><label for="female">female</label>
+            <input type="radio" name="sex" value="male" id="male"> <label for="male">male</label>
+        </p>
+        <p>
+           <label for="DOB">date of birth<b>:</b></label> <br>
+           <input type="date" name="dob" id="dob">
+        </p>
+        <p>
+            <label for="state">state<b>:</b></label><br>
+            <input type="text" name="state" id="state" placeholder="state of origin">
+        </p>
+        <p>
+            <label for="address">Address<b>:</b></label><br>
+            <input type="text" name="address" id="address">
+        </p>
+        </fieldset>
+        <p>
+            <label for="class">Class<b>:</b></label><br>
+            <select name="class" id="">
+                <option>select-your-class</option>
+                <option value="jss1">Jss1</option>
+                <option value="Jss2">Jss2</option>
+                <option value="Jss3">Jss3</option>
+                <option value="SS1">SS1</option>
+                <option value="SS2">SS2</option>
+                <option value="SS3">SS3</option>
+            </select>
+        </p>
+        <p>
+            <label for="phonenumber">phone number<b>:</b></label><br>
+            <input type="tel" name="phonenumber" placeholder="parents/guardian">
+        </p>
+        <p>
+            <label for="email">Email<b>:</b></label><br>
+            <input type="email" id="email" name="email">
+        </p>
+        <p>
+            <label for="about">Tell us about yourself</label><br>
+            <textarea name="about"  placeholder="describe yourself........" id="about" cols="50" rows="20"></textarea>
+        </p>
+        <p>
+            <label for="file">upload your photo</label>
+            <input type="file" id="photo" name="photo" accept="">
+        </p>
+        <p>
+            <input type="submit" name="submit" id="submit" value="submit">
+        </p>
+    </form>
+</body>
+</html>
