@@ -23,5 +23,46 @@
     color: rgba(0, 128, 0, 0);
     font-size: 30px;
  }
+
+.body{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 200px;
+    width: 30%;
+    background-color: rgb(190, 212, 230);
+}
+
+.body:hover{
+    transform: skew(10deg);
+    transition-delay: 3s;
+    transition-duration: 2s;
+}
+
+.circle{
+    border: 1px solid black;
+    height: 90px;
+    width: 90px;
+    border-radius: 915px;
+    margin-left: 35.8%;
+    background-image: url("./images2/writhing\ children.jpg");
+}
+
+.circle:hover{
+    height: 100px;
+    width: 100px;
+    transition-delay: 1s;
+    transition-duration: 2s;
+
+}
+
+strong{
+    margin-left: 38%;
+    text-decoration:underline 1.5px;
+}
+
+.form{
+    padding-top: 4%;
+}
+
     
 
